@@ -112,6 +112,7 @@ function App() {
           category,
           difficulty: nextDifficulty,
           roundNumber,
+          options: []
         })
       }
 

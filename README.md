@@ -101,31 +101,6 @@ npm install --prefix server
 npm install --prefix client
 ```
 
-### 2. Configure environment
-
-Create a file at `server/.env`:
-
-```env
-OPENAI_API_KEY=your_key_here
-PORT=4000
-```
-
-You can copy from `server/.env.example`.
-
-### 3. Run backend
-
-```bash
-npm run dev --prefix server
-```
-
-### 4. Run frontend
-
-```bash
-npm run dev --prefix client
-```
-
-Open the Vite URL shown in terminal (typically `http://localhost:5173`).
-
 ## Architecture Overview
 
 1. Frontend starts game after category selection.
